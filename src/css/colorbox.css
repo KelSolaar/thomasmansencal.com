@@ -1,0 +1,111 @@
+/*
+ColorBox Core Style
+The following rules are the styles that are consistant between themes.
+Avoid changing this area to maintain compatability with future versions of ColorBox.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper {
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 9999;
+}
+/*
+ColorBox example user style
+The following rules are ordered and tabbed in a way that represents the
+order/nesting of the generated HTML, so that the structure easier to understand.
+*/
+#cboxOverlay {
+    background: #101010;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+}
+#cboxMiddleLeft, #cboxBottomLeft {
+    clear: left;
+}
+#cboxContent {
+    background: #202020;
+    margin-top: 64px;
+    overflow: visible;
+    position: relative;
+}
+#cboxLoadedContent {
+    overflow: auto;
+    padding: 24px;
+}
+#cboxLoadedContent iframe {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+#cboxLoadingOverlay, #cboxLoadingGraphic {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#cboxTitle {
+    color: #909090;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+#cboxCurrent {
+    bottom: 0;
+    color: #909090;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: absolute;
+    text-align: center;
+    text-transform:capitalize;
+    width: 100%;
+}
+#cboxPrevious {
+    font-weight: bold;
+    left: 8px;
+    letter-spacing: 2px;
+    position: absolute;
+    text-transform:capitalize;
+    top: 0;
+}
+#cboxPrevious.hover {
+    color:#909090
+}
+#cboxNext {
+    font-weight: bold;
+    left: 96px;
+    letter-spacing: 2px;
+    position: absolute;
+    text-transform:capitalize;
+    top: 0;
+}
+#cboxNext.hover {
+    color:#909090
+}
+#cboxClose {
+    display: block;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: absolute;
+    right: 8px;
+    text-transform:capitalize;
+    top: 0;
+}
+#cboxClose.hover {
+    color:#909090
+}
+#cboxLoadingGraphic {
+    background: url(../libraries/colorbox/images/preloader.gif) no-repeat center center;
+}
+#cboxLoadingOverlay {
+    background: #202020;
+}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow {
+    cursor: pointer;
+}

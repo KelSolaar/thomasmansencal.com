@@ -1,0 +1,33 @@
+/*** Portfolio. ***/
+div#portfolio {
+    margin: auto;
+    width: 1280px;
+}
+div.node {
+    border: none;
+    float: left;
+    height: 256px;
+    overflow: hidden;
+    position: relative;
+    width: 256px;
+    z-index: 8;
+}
+div.layer {
+    height: 256px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 256px;
+    z-index: 64;
+}
+div.text {
+    bottom: 0;
+    left: 0;
+    padding: 16px;
+    position: absolute;
+}
+ul.menu {
+    padding-right: 16px;
+    direction: rtl;
+}
+

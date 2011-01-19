@@ -1,0 +1,38 @@
+/*** Reset. ***/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+/*** Clear Floated Elements. ***/
+html body * span.clear, html body * div.clear, html body * li.clear, html body * dd.clear {
+    background: none;
+    border: 0;
+    clear: both;
+    display: block;
+    float: none;
+    font-size: 0;
+    height: 0;
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    visibility: hidden;
+    width: 0;
+}
+.clearfix:after {
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    display: block;
+}
+* html .clearfix {
+    height: 1%;
+}
