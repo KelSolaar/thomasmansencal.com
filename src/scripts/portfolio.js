@@ -53,44 +53,20 @@ $(document).ready( function() {
         innerHeight: 320,
         scrolling: false
     });
-    $(".videoColorbox").colorbox(
+    $(".video272pColorbox").colorbox(
+    {
+        iframe: true,
+        innerWidth: 640,
+        innerHeight: 272,
+        scrolling: false
+
+    });
+    $(".video720pColorbox").colorbox(
     {
         iframe: true,
         innerWidth: 1280,
         innerHeight: 720,
         scrolling: false
 
-    });
-    $(".flowPlayer272pColorbox").colorbox(
-    {
-        scrolling: false,
-        innerWidth: 640,
-        innerHeight: 272,
-        html: function() {
-            return $("<a/>", {
-                id: "flowPlayer",
-                href: $(this).attr("href")
-            });
-        },
-        onComplete: function() {
-            flowplayer("flowPlayer", "libraries/flowplayer/flowplayer.swf",
-            getFlowPlayerSettings());
-        }
-    });
-    $(".flowPlayer720pColorbox").colorbox(
-    {
-        scrolling: false,
-        innerWidth: 1280,
-        innerHeight: 720,
-        html: function() {
-            return $("<a/>", {
-                id: "flowPlayer",
-                href: $(this).attr("href")
-            });
-        },
-        onComplete: function() {
-            flowplayer("flowPlayer", "libraries/flowplayer/flowplayer.swf",
-            getFlowPlayerSettings());
-        }
     });
 });
