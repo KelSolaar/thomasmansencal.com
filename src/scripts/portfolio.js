@@ -31,7 +31,7 @@ $(document).ready( function() {
     {
         iframe: true,
         innerWidth: 960,
-        innerHeight: 3360,
+        innerHeight: 3460,
         scrolling: false
     });
     $(".aboutIframeColorbox").colorbox(

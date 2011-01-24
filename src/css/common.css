@@ -77,6 +77,9 @@ a:hover {
     padding-bottom: 16px;
     padding-top: 16px;
 }
+.verticalAlign {
+    vertical-align: middle;
+}
 /*** Colors. ***/
 .colorBrightest {
     color: #909090;
@@ -208,10 +211,6 @@ p {
 .textAlignCenter {
     text-align: center;
 }
-.textVerticalAlign {
-    display: table-cell;
-    vertical-align: middle;
-}
 .fourTextIndent {
     text-indent: 4px;
 }
@@ -284,6 +283,10 @@ div.brickSpacer {
 div.tableDisplay {
     display: table
 }
+div.cellDisplay {
+    display: table-cell;
+}
+
 div.eightContainer {
     height: 8px;
     width: 100%;
