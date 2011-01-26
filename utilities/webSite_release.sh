@@ -18,6 +18,7 @@ cp  -r ../src/scripts ./online/
 mkdir -p ./online/resources
 cp  -r ../src/resources/nodes ./online/resources/
 cp  -r ../src/resources/pages ./online/resources/
+cp  -r ../src/resources/pdfs ./online/resources/
 cp  -r ../src/resources/pictures ./online/resources/
 cp  -r ../src/resources/portfolio ./online/resources/
 cp ../src/index.html ./online/
