@@ -22,7 +22,6 @@ cp  -r ../src/resources/pdfs ./online/resources/
 cp  -r ../src/resources/pictures ./online/resources/
 cp  -r ../src/resources/portfolio ./online/resources/
 cp ../src/index.html ./online/
-cp ../src/_index.html ./online/
 echo ----------------------------------------------------------------
 echo Release - End
 echo ----------------------------------------------------------------
