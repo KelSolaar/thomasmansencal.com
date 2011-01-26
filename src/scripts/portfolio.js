@@ -41,6 +41,13 @@ $(document).ready( function() {
         innerHeight: 672,
         scrolling: false
     });
+    $(".breakdownShowreel2010IframeColorbox").colorbox(
+    {
+        iframe: true,
+        innerWidth: 960,
+        innerHeight: 1080,
+        scrolling: false
+    });
     $(".pictureColorbox").colorbox(
     {
         maxHeight: "90%",
