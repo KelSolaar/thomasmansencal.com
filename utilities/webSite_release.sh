@@ -7,7 +7,7 @@ echo ----------------------------------------------------------------
 alias yuiCompressor="java -jar /Users/KelSolaar/Documents/Developement/Tools/yuiCompressor/build/yuicompressor-2.4.2.jar"
 alias python=/Library/Frameworks/Python.framework/Versions/2.7/bin/python
 
-#! Local Release.
+#! Local release.
 echo ----------------------------------------------------------------
 echo Release - Begin
 echo ----------------------------------------------------------------
@@ -26,7 +26,7 @@ echo ----------------------------------------------------------------
 echo Release - End
 echo ----------------------------------------------------------------
 
-#! Javascript Files Compression.
+#! Javascript files compression.
 echo ----------------------------------------------------------------
 echo Javascript Files Compression - Begin
 echo ----------------------------------------------------------------
@@ -36,7 +36,7 @@ echo ----------------------------------------------------------------
 echo Javascript Files Compression - End
 echo ----------------------------------------------------------------
 
-#! CSS Files Compression.
+#! CSS files compression.
 echo ----------------------------------------------------------------
 echo CSS Files Compression - Begin
 echo ----------------------------------------------------------------
@@ -49,7 +49,7 @@ echo CSS Files Compression - End
 echo ----------------------------------------------------------------
 
 
-#! Release Cleanup.
+#! Release cleanup.
 echo ----------------------------------------------------------------
 echo Cleanup - Begin
 echo ----------------------------------------------------------------
