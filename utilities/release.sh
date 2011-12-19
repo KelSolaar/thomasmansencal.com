@@ -52,10 +52,10 @@ echo ----------------------------------------------------------------
 echo ----------------------------------------------------------------
 echo Cleanup - Begin
 echo ----------------------------------------------------------------
-python ../utilities/webSite_recursiveRemove.py ./online/ .pyc
-python ../utilities/webSite_recursiveRemove.py ./online/ .pyo
-python ../utilities/webSite_recursiveRemove.py ./online/ .DS_Store
-python ../utilities/webSite_recursiveRemove.py ./online/ Thumbs.db
+python ../utilities/recursiveRemove.py ./online/ .pyc
+python ../utilities/recursiveRemove.py ./online/ .pyo
+python ../utilities/recursiveRemove.py ./online/ .DS_Store
+python ../utilities/recursiveRemove.py ./online/ Thumbs.db
 echo ----------------------------------------------------------------
 echo Cleanup - End
 echo ----------------------------------------------------------------
