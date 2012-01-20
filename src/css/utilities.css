@@ -36,3 +36,6 @@ html body * span.clear, html body * div.clear, html body * li.clear, html body *
 * html .clearfix {
     height: 1%;
 }
+.hide {
+    display: none;
+}

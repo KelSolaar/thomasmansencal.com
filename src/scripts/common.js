@@ -22,6 +22,19 @@ function getEmailAddress() {
     return email;
 }
 
+function hexadecimalToAscii(hexadecimal) {
+    var ascii = "";
+    for (var i = 0; i < hexadecimal.length; i += 2)
+        ascii += String.fromCharCode(parseInt(hexadecimal.substr(i, 2), 16));
+    return ascii;
+}
+
+function getSocialEmailAddressLink() {
+    var data = hexadecimalToAscii("74686F6D61732E6D616E73656E63616C40676D61696C2E636F6D")
+    var link = "<a href=\"mailto:" + data + "\" class=\"gmail\">GMail</a>";
+    document.write(link);
+}
+
 function getYear() {
     var year = new Date();
     year = year.getYear();
