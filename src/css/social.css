@@ -1,0 +1,48 @@
+/*** Social Networks. ***/
+ul.socialWidth {
+    width: 216px;	
+}
+ul.extendedSocialWidth {
+    width: 324px;	
+}
+ul#social {
+}
+ul#social li a {
+    background-repeat:no-repeat;
+    display: block;
+    float: left;
+    height: 32px;
+    margin: 0 2px 0 2px;
+    text-indent:-9999px;
+    width: 32px;
+}
+ul#social li a:hover {
+    background-position: 0 -32px;
+}
+ul#social li a.gmail {
+    background-image:url(../resources/pictures/gmail.png);
+}
+ul#social li a.linkedIn {
+    background-image:url(../resources/pictures/linkedIn.png);
+}
+ul#social li a.imdb {
+    background-image:url(../resources/pictures/imdb.png);
+}
+ul#social li a.github {
+    background-image:url(../resources/pictures/github.png);
+}
+ul#social li a.vimeo {
+    background-image:url(../resources/pictures/vimeo.png);
+}
+ul#social li a.facebook {
+    background-image:url(../resources/pictures/facebook.png);
+}
+ul#social li a.twitter {
+    background-image:url(../resources/pictures/twitter.png);
+}
+ul#social li a.googlePlus {
+    background-image:url(../resources/pictures/googlePlus.png);
+}
+ul#social li a.youtube {
+    background-image:url(../resources/pictures/youtube.png);
+}

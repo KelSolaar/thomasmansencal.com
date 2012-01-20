@@ -43,6 +43,7 @@ echo ----------------------------------------------------------------
 yuiCompressor --type css -o ./online/css/colorbox.css ./online/css/colorbox.css
 yuiCompressor --type css -o ./online/css/common.css ./online/css/common.css
 yuiCompressor --type css -o ./online/css/portfolio.css ./online/css/portfolio.css
+yuiCompressor --type css -o ./online/css/social.css ./online/css/social.css
 yuiCompressor --type css -o ./online/css/utilities.css ./online/css/utilities.css
 echo ----------------------------------------------------------------
 echo CSS Files Compression - End
