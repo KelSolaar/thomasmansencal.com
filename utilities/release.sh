@@ -4,7 +4,7 @@ echo ----------------------------------------------------------------
 echo Web Site - Release
 echo ----------------------------------------------------------------
 
-alias yuiCompressor="java -jar /Users/KelSolaar/Documents/Developement/Tools/yuiCompressor/build/yuicompressor-2.4.2.jar"
+alias yuiCompressor="java -jar /Users/KelSolaar/Documents/Development/Tools/yuiCompressor/build/yuicompressor-2.4.2.jar"
 alias python=/Library/Frameworks/Python.framework/Versions/2.7/bin/python
 
 #! Local release.
