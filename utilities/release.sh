@@ -12,16 +12,16 @@ echo ----------------------------------------------------------------
 echo Release - Begin
 echo ----------------------------------------------------------------
 rm -rf online/*
-cp  -r ../src/css ./online/
-cp  -r ../src/libraries ./online/
-cp  -r ../src/scripts ./online/
+cp  -r ../site/css ./online/
+cp  -r ../site/libraries ./online/
+cp  -r ../site/scripts ./online/
 mkdir -p ./online/resources
-cp  -r ../src/resources/nodes ./online/resources/
-cp  -r ../src/resources/pages ./online/resources/
-cp  -r ../src/resources/pdfs ./online/resources/
-cp  -r ../src/resources/pictures ./online/resources/
-cp  -r ../src/resources/portfolio ./online/resources/
-cp ../src/index.html ./online/
+cp  -r ../site/resources/nodes ./online/resources/
+cp  -r ../site/resources/pages ./online/resources/
+cp  -r ../site/resources/pdfs ./online/resources/
+cp  -r ../site/resources/pictures ./online/resources/
+cp  -r ../site/resources/portfolio ./online/resources/
+cp ../site/index.html ./online/
 echo ----------------------------------------------------------------
 echo Release - End
 echo ----------------------------------------------------------------

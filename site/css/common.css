@@ -1,0 +1,391 @@
+/*** Overall. ***/
+body {
+    background: #202020;
+    color: #707070;
+    font-family: 'Times New Roman', Times, serif;
+}
+a:link, a:visited, a:active {
+    color: #707070;
+    text-decoration: none;
+}
+a:hover {
+    color: #909090;
+}
+.fourMargin {
+    margin: 4px;
+}
+.eightMargin {
+    margin: 8px;
+}
+.sixteenMargin {
+    margin: 16px;
+}
+.fourMarginWidth {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.eightMarginWidth {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.sixteenMarginWidth {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.fourMarginHeight {
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+.eightMarginHeight {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.sixteenMarginHeight {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.fourPadding {
+    padding: 4px;
+}
+.eightPadding {
+    padding: 8px;
+}
+.sixteenPadding {
+    padding: 16px;
+}
+.fourPaddingWidth {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.eightPaddingWidth {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.sixteenPaddingWidth {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.fourPaddingHeight {
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+.eightPaddingHeight {
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.sixteenPaddingHeight {
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+.verticalAlign {
+    vertical-align: middle;
+}
+/*** Colors. ***/
+.colorBrightest {
+    color: #909090;
+}
+.colorBright {
+    color: #808080;
+}
+.colorAverageDarker {
+    color: #505050;
+}
+.colorDark {
+    color: #404040;
+}
+.colorDarker {
+    color: #303030;
+}
+.colorDarkest {
+    color: #202020;
+}
+.colorRed {
+    color: #6f3d36;
+}
+.colorRedDarker {
+    color: #4c2e29;
+}
+.bgColorBrightest {
+    background-color: #909090;
+}
+.bgColorBright {
+    background-color: #808080;
+}
+.bgColorAverageDarker {
+    background-color: #505050;
+}
+.bgColorDark {
+    background-color: #404040;
+}
+.bgColorDarker {
+    background-color: #303030;
+}
+.bgColorDarkest {
+    background-color: #202020;
+}
+.bgColorRed {
+    background-color: #6f3d36;
+}
+.bgColorRedDarker {
+    background-color: #4c2e29;
+}
+.bgColorBrightest {
+    background: #909090;
+}
+.bgBright {
+    background: #808080;
+}
+.bgAverageDarker {
+    background: #505050;
+}
+.bgDarkLesser {
+    background: #454545;
+}
+.bgDark {
+    background: #404040;
+}
+.bgDarkerLesser {
+    background: #353535;
+}
+.bgDarker {
+    background: #303030;
+}
+.bgDarkestLesser {
+    background: #252525;
+}
+.bgDarkest {
+    background: #202020;
+}
+.bgRed {
+    background: #6f3d36;
+}
+.bgRedDarker {
+    background: #4c2e29;
+}
+.floatLeft {
+    float: left;
+}
+.floatRight {
+    float: right;
+}
+/*** Texts. ***/
+h1 {
+    font-size: 1.40em;
+    letter-spacing: 2px;
+}
+h2 {
+    font-size: 1.20em;
+    letter-spacing: 1.5px;
+}
+h3 {
+    font-size: 1.10em;
+    letter-spacing: 1.5px;
+}
+h4 {
+    font-size: 0.9em;
+}
+p {
+    text-indent: 16px;
+}
+.oneLineHeight {
+    line-height: 10em;
+}
+.twoLetterSpacing {
+    letter-spacing: 2px;
+}
+.fourLetterSpacing {
+    letter-spacing: 4px;
+}
+.sixLetterSpacing {
+    letter-spacing: 6px;
+}
+.eightLetterSpacing {
+    letter-spacing: 8px;
+}
+.textAlignRight {
+    text-align: right;
+}
+.textAlignLeft {
+    text-align: left;
+}
+.textAlignCenter {
+    text-align: center;
+}
+.fourTextIndent {
+    text-indent: 4px;
+}
+.heightTextIndent {
+    text-indent: 8px;
+}
+.sixteenTextIndent {
+    text-indent: 16px;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.fontArial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fontCourrier {
+    font-family: 'Courier New', Courier, monospace;
+}
+.fontTimes {
+    font-family: 'Times New Roman', Times, serif;
+}
+.fontSmaller {
+    font-size: 0.9em;
+}
+.fontBigger {
+    font-size: 1.1em;
+}
+.fontBiggest {
+    font-size: 1.4em;
+}
+.fontExtreme {
+    font-size: 4em;
+}
+.fontDoubleExtreme {
+    font-size: 8em;
+}
+.textUppercase {
+    text-transform: uppercase;
+}
+/*** Divs. ***/
+div.frame {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+div.brick {
+    border: none;
+    float: left;
+    height: 128px;
+    overflow: hidden;
+    position: relative;
+    width: 256px;
+    z-index: 8;
+}
+div.brickLarge {
+    border: none;
+    float: left;
+    height: 240px;
+    overflow: hidden;
+    position: relative;
+    width: 960px;
+    z-index: 8;
+}
+div.brickJoint {
+    border: none;
+    float: left;
+    height: 128px;
+    overflow: hidden;
+    position: relative;
+    width: 8px;
+    z-index: 8;
+}
+div.brickSpacer {
+    border: none;
+    float: left;
+    height: 8px;
+    overflow: hidden;
+    position: relative;
+    width: 256px;
+    z-index: 8;
+}
+div.brickLargeSpacer {
+    border: none;
+    float: left;
+    height: 8px;
+    overflow: hidden;
+    position: relative;
+    width: 960px;
+    z-index: 8;
+}
+div.tableDisplay {
+    display: table
+}
+div.cellDisplay {
+    display: table-cell;
+}
+
+div.eightContainer {
+    height: 8px;
+    width: 100%;
+}
+div.thirtyTwoContainer {
+    height: 32px;
+    width: 100%;
+}
+div.oneBrickCenteredContainer {
+    bottom: 0;
+    height: 128px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 256px;
+}
+div.oneBrickWithSpacerCenteredContainer {
+    bottom: 0;
+    height: 136px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 256px;
+}
+div.oneBrickLargeCenteredContainer {
+    bottom: 0;
+    height: 240px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 960px;
+}
+div.oneBrickLargeWithSpacerCenteredContainer {
+    bottom: 0;
+    height: 248px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 960px;
+}
+div.twoBricksCenteredContainer {
+    bottom: 0;
+    height: 128px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 512px;
+}
+div.twoBricksWithJointCenteredContainer {
+    bottom: 0;
+    height: 128px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 522px;
+}
+div.clear {
+    clear: both;
+}
+/*** Lists. ***/
+ul.list {
+    list-style-position: inside;
+}
+ul.noBullets {
+    list-style-type: none;
+}
