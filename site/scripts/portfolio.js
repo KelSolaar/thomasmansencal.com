@@ -37,7 +37,7 @@ $(document).ready( function() {
     {
         iframe: true,
         innerWidth: 960,
-        innerHeight: 3900,
+        innerHeight: 4300,
         scrolling: false,
         title: function() {
             return $(this).attr("type");

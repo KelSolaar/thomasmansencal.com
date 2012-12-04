@@ -1,0 +1,124 @@
+/*** Variables. ***/
+@neutral: #808080;
+@brightest: lighten(@neutral, 40%);
+@brighter: lighten(@neutral, 30%);
+@bright: lighten(@neutral, 20%);
+@dark: darken(@neutral, 20%);
+@darker: darken(@neutral, 30%);
+@darkest: darken(@neutral, 40%);
+
+@tintNeutral: #903030;
+@tint: @tintNeutral;
+@tintDarker: desaturate(darken(@tintNeutral, 10%), 10%);
+
+/*
+ColorBox Core Style
+The following rules are the styles that are consistant between themes.
+Avoid changing this area to maintain compatability with future versions of ColorBox.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper {
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 9999;
+}
+/*
+ColorBox example user style
+The following rules are ordered and tabbed in a way that represents the
+order/nesting of the generated HTML, so that the structure easier to understand.
+*/
+#cboxOverlay {
+    background: @darkest;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+}
+#cboxMiddleLeft, #cboxBottomLeft {
+    clear: left;
+}
+#cboxContent {
+    background: @darkest;
+    margin-top: 64px;
+    overflow: visible;
+    position: relative;
+}
+#cboxLoadedContent {
+    overflow: auto;
+    padding: 24px;
+}
+#cboxLoadedContent iframe {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+#cboxLoadingOverlay, #cboxLoadingGraphic {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#cboxTitle {
+    color: @bright;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+#cboxCurrent {
+    bottom: 0;
+    color: @bright;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: absolute;
+    text-align: center;
+    text-transform:capitalize;
+    width: 100%;
+}
+#cboxPrevious {
+    font-weight: bold;
+    left: 8px;
+    letter-spacing: 2px;
+    position: absolute;
+    text-transform:capitalize;
+    top: 0;
+}
+#cboxPrevious.hover {
+    color:@bright
+}
+#cboxNext {
+    font-weight: bold;
+    left: 96px;
+    letter-spacing: 2px;
+    position: absolute;
+    text-transform:capitalize;
+    top: 0;
+}
+#cboxNext.hover {
+    color:@bright
+}
+#cboxClose {
+    display: block;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: absolute;
+    right: 8px;
+    text-transform:capitalize;
+    top: 0;
+}
+#cboxClose.hover {
+    color:@bright
+}
+#cboxLoadingGraphic {
+    background: url(../libraries/colorbox/images/preloader.gif) no-repeat center center;
+}
+#cboxLoadingOverlay {
+    background: @darkest;
+}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow {
+    cursor: pointer;
+}

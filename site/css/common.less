@@ -1,0 +1,403 @@
+/*** Imports. ***/
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,700,300,600,800&.css");
+
+/*** Variables. ***/
+@neutral: #808080;
+@brightest: lighten(@neutral, 40%);
+@brighter: lighten(@neutral, 30%);
+@bright: lighten(@neutral, 20%);
+@dark: darken(@neutral, 20%);
+@darker: darken(@neutral, 30%);
+@darkest: darken(@neutral, 40%);
+@tintNeutral: #903030;
+@tint: @tintNeutral;
+@tintDarker: desaturate(darken(@tintNeutral, 10%), 10%);
+/*** Overall. ***/
+body {
+    background: @darkest;
+    color: @bright;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.0em;
+}
+a:link, a:visited, a:active {
+    color: @bright;
+    text-decoration: none;
+}
+a:hover {
+    color: @brightest;
+}
+.fourMargin {
+    margin: 4px;
+}
+.eightMargin {
+    margin: 8px;
+}
+.sixteenMargin {
+    margin: 16px;
+}
+.fourMarginWidth {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.eightMarginWidth {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.sixteenMarginWidth {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.fourMarginHeight {
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+.eightMarginHeight {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.sixteenMarginHeight {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.fourPadding {
+    padding: 4px;
+}
+.eightPadding {
+    padding: 8px;
+}
+.sixteenPadding {
+    padding: 16px;
+}
+.fourPaddingWidth {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.eightPaddingWidth {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.sixteenPaddingWidth {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.fourPaddingHeight {
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+.eightPaddingHeight {
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.sixteenPaddingHeight {
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+.verticalAlign {
+    vertical-align: middle;
+}
+/*** Colors. ***/
+.colorBrightest {
+    color: @brightest;
+}
+.colorBrighter {
+    color: @brighter;
+}
+.colorBright {
+    color: @bright;
+}
+.colorDark {
+    color: @dark;
+}
+.colorDarker {
+    color: @darker;
+}
+.colorDarkest {
+    color: @darkest;
+}
+.colorTint {
+    color: @tint;
+}
+.colorTintDarker {
+    color: @tintDarker;
+}
+.bgColorBrightest {
+    background-color: @brightest;
+}
+.bgColorBrighter {
+    background-color: @brighter;
+}
+.bgColorBright {
+    background-color: @bright;
+}
+.bgColorDark {
+    background-color: @dark;
+}
+.bgColorDarker {
+    background-color: @darker;
+}
+.bgColorDarkest {
+    background-color: @darkest;
+}
+.bgColorTint {
+    background-color: @tint;
+}
+.bgColorTintDarker {
+    background-color: @tintDarker;
+}
+.bgBrightest {
+    background: @brightest;
+}
+.bgBrighter {
+    background: @brighter;
+}
+.bgBright {
+    background: @bright;
+}
+.bgDark {
+    background: @dark;
+}
+.bgDarker {
+    background: @darker;
+}
+.bgDarkest {
+    background: @darkest;
+}
+.bgTint {
+    background: @tint;
+}
+.bgTintDarker {
+    background: @tintDarker;
+}
+.floatLeft {
+    float: left;
+}
+.floatRight {
+    float: right;
+}
+/*** Texts. ***/
+h1 {
+    font-size: 1.40em;
+    // letter-spacing: 2px;
+}
+h2 {
+    font-size: 1.20em;
+    // letter-spacing: 1.5px;
+}
+h3 {
+    font-size: 1.10em;
+    // letter-spacing: 1.5px;
+}
+h4 {
+    font-size: 1.0em;
+}
+h5 {
+    font-size: 0.9em;
+}
+h6 {
+    font-size: 0.8em;
+}
+p {
+    text-indent: 16px;
+}
+.oneLineHeight {
+    line-height: 10em;
+}
+.twoLetterSpacing {
+    letter-spacing: 2px;
+}
+.fourLetterSpacing {
+    letter-spacing: 4px;
+}
+.sixLetterSpacing {
+    letter-spacing: 6px;
+}
+.eightLetterSpacing {
+    letter-spacing: 8px;
+}
+.textAlignRight {
+    text-align: right;
+}
+.textAlignLeft {
+    text-align: left;
+}
+.textAlignCenter {
+    text-align: center;
+}
+.fourTextIndent {
+    text-indent: 4px;
+}
+.heightTextIndent {
+    text-indent: 8px;
+}
+.sixteenTextIndent {
+    text-indent: 16px;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.fontArial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fontCourrier {
+    font-family: 'Courier New', Courier, monospace;
+}
+.fontTimes {
+    font-family: 'Times New Roman', Times, serif;
+}
+.fontSmaller {
+    font-size: 0.9em;
+}
+.fontBigger {
+    font-size: 1.1em;
+}
+.fontBiggest {
+    font-size: 1.4em;
+}
+.fontExtreme {
+    font-size: 4em;
+}
+.fontDoubleExtreme {
+    font-size: 8em;
+}
+.textUppercase {
+    text-transform: uppercase;
+}
+/*** Divs. ***/
+div.frame {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+div.brick {
+    border: none;
+    float: left;
+    height: 128px;
+    overflow: hidden;
+    position: relative;
+    width: 256px;
+    z-index: 8;
+}
+div.brickLarge {
+    border: none;
+    float: left;
+    height: 240px;
+    overflow: hidden;
+    position: relative;
+    width: 960px;
+    z-index: 8;
+}
+div.brickJoint {
+    border: none;
+    float: left;
+    height: 128px;
+    overflow: hidden;
+    position: relative;
+    width: 8px;
+    z-index: 8;
+}
+div.brickSpacer {
+    border: none;
+    float: left;
+    height: 8px;
+    overflow: hidden;
+    position: relative;
+    width: 256px;
+    z-index: 8;
+}
+div.brickLargeSpacer {
+    border: none;
+    float: left;
+    height: 8px;
+    overflow: hidden;
+    position: relative;
+    width: 960px;
+    z-index: 8;
+}
+div.tableDisplay {
+    display: table
+}
+div.cellDisplay {
+    display: table-cell;
+}
+
+div.eightContainer {
+    height: 8px;
+    width: 100%;
+}
+div.thirtyTwoContainer {
+    height: 32px;
+    width: 100%;
+}
+div.oneBrickCenteredContainer {
+    bottom: 0;
+    height: 128px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 256px;
+}
+div.oneBrickWithSpacerCenteredContainer {
+    bottom: 0;
+    height: 136px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 256px;
+}
+div.oneBrickLargeCenteredContainer {
+    bottom: 0;
+    height: 240px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 960px;
+}
+div.oneBrickLargeWithSpacerCenteredContainer {
+    bottom: 0;
+    height: 248px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 960px;
+}
+div.twoBricksCenteredContainer {
+    bottom: 0;
+    height: 128px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 512px;
+}
+div.twoBricksWithJointCenteredContainer {
+    bottom: 0;
+    height: 128px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 522px;
+}
+div.clear {
+    clear: both;
+}
+/*** Lists. ***/
+ul.list {
+    list-style-position: inside;
+}
+ul.noBullets {
+    list-style-type: none;
+}
