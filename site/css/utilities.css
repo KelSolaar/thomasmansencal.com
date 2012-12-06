@@ -7,6 +7,7 @@
     font-size: 1em;
     line-height: 1.5em;
 }
+
 /*** Clear Floated Elements. ***/
 html body * span.clear, html body * div.clear, html body * li.clear, html body * dd.clear {
     background: none;
@@ -23,6 +24,7 @@ html body * span.clear, html body * div.clear, html body * li.clear, html body *
     visibility: hidden;
     width: 0;
 }
+
 .clearfix:after {
     clear: both;
     content: '.';
@@ -30,12 +32,15 @@ html body * span.clear, html body * div.clear, html body * li.clear, html body *
     height: 0;
     visibility: hidden;
 }
+
 .clearfix {
     display: block;
 }
+
 * html .clearfix {
     height: 1%;
 }
+
 .hide {
     display: none;
 }
